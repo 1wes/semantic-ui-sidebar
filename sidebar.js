@@ -7,7 +7,7 @@ $(document).ready((e)=>{
     $('.hamburger').click((e)=>{
 
         
-        $('.sideMenu').show('slow');
+        $('.sideMenu').toggle(500);
 
     })
 })
