@@ -1,6 +1,6 @@
 const {ipcMain, app, BrowserWindow, Menu}=require('electron');
 
-Menu.setApplicationMenu(false);
+// Menu.setApplicationMenu(false);
 
 let win;
 
@@ -16,7 +16,7 @@ function createWindow(){
 
         webPreferences:{
 
-            nodeIntergration:true
+            nodeIntegration:true
         }
     })
 
