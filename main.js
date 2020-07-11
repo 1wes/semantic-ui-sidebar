@@ -1,5 +1,7 @@
 const {ipcMain, app, BrowserWindow, Menu}=require('electron');
 
+Menu.setApplicationMenu(false);
+
 let win;
 
 function createWindow(){
@@ -10,7 +12,7 @@ function createWindow(){
 
         width:800,
 
-        frame:false,
+        // frame:false,
 
         webPreferences:{
 
